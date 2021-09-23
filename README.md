@@ -58,10 +58,10 @@ Book
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdownschets1.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets1.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/breakdownschets-menu.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/breakdownschets-menu.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -76,8 +76,8 @@ Book
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-<img src="images/siteweek1.jpg" width="375px" alt="deel van site bij 1e voortgang">
-<img src="images/csscodeweek1.jpg" width="375px" alt="deel van css bij 1e voortgang">
+<img src="images/siteweek1.png" width="375px" alt="deel van site bij 1e voortgang">
+<img src="images/csscodeweek1.png" width="375px" alt="deel van css bij 1e voortgang">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
