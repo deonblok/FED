@@ -58,10 +58,10 @@ Book
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdownschets1.png" width="375px" alt="breakdown van de hele pagina">
+<img src="images/screenshot2.jpg" width="375px" alt="pagina over het boek van Billie Eilish">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/breakdownschets-menu.png" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/screenshot2.jpg" width="375px" alt="breakdownschets dynamisch deel">
 
 </details>
 
