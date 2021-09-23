@@ -58,13 +58,10 @@ Book
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets1.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/breakdownschets-menu.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -79,7 +76,8 @@ Book
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+<img src="images/siteweek1.jpg" width="375px" alt="deel van site bij 1e voortgang">
+<img src="images/csscodeweek1.jpg" width="375px" alt="deel van css bij 1e voortgang">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -94,10 +92,12 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- padding: .5em verwijderen
+- top:0 toevoegen voor de nav
+- Goed de bronnen noteren
+- achter een font ook de webfonts plaatsen
+- max height/width ipv height/width.
+- tip! voor kleine stukken een span gebruiken ipv een div.
 
 </details>
 
