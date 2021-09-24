@@ -10,71 +10,86 @@
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/faviconBE.png">
+	<link href="http://fonts.cdnfonts.com/css/coronet" rel="stylesheet">
+                
 </head>
 
 <body>
 	<header>
-	<img src="images/logo.png" alt="logo">
-		<nav>
-			<a href="videos">videos</a>
-			<a href="music">music</a>
-			<a href="tour">tour</a>
-			<a href="store">store</a>
-			<a href="doc">documentary</a>
-			<a href="book">book</a>
-			<a href="subcribe">subscribe</a>
-		</nav>
+	  <nav>
+		<button aria-hidden="true"><img src="images/logo.png" alt="logo"/></button>
+		<ul>
+		  <li><a class="active"> videos</a></li>
+		  <li><a href="#">music</a></li>
+		  <li><a href="#">tour</a></li>
+		  <li><a href="#">store</a></li>
+		  <li><a href="#">documentary</a></li>
+		  <li><a href="#">book</a></li>
+		  <li><a href="#">subscribe</a></li>
+		  <a href="#"><img src="images/tour-name.png" alt="social button"/></a>
+		</ul>
+	  </nav>
 	</header>
+
 	<main>
-		<img src="images/headerimg.jpeg" alt="album cover">
-		
-		<h2>Hier komen youtube videos</h2>
-		<a href="https://youtu.be/5GJWxDKyk3A"><img src="images/youtubeHTE.jpeg" alt="Happier"></a>
-		<a href="https://youtu.be/7AS9r_E0PY4?list=PLsCPTY_MPoPZLKsjasPhYLuoWG-s-rdKq"><img src="images/youtubeplaylist.jpeg" alt="playlist"></a>
-		<img class="listen" src="images/billie.jpeg" alt="album cover">
-		<h2>Happier Then Ever</h2>
-		<h3>Listen</h3>
+		<section>
+			<img src="images/headermobile.jpeg" alt="album cover">
+		</section>
+		<section>
+			<h2>Hier komen youtube videos</h2>
+			
+			<iframe src="https://www.youtube.com/embed/5GJWxDKyk3A">
+			</iframe>
 
-		<h4>Tour</h4>
-		<img class="tourimg" src="images/tour-name.png" alt="tourname">
-		<ol>
-			<li><a href=""></a>Ziggo Dome</li>
-			<li><a href=""></a>Festhalle</li>
-			<li><a href=""></a>Lanxess Arena</li>
-			<li><a href=""></a>Acoor Arena</li>
-		</ol>
-
+			<a href="https://youtu.be/5GJWxDKyk3A"><img src="images/youtubeHTE.jpeg" alt="Happier"></a>
+			<a href="https://youtu.be/7AS9r_E0PY4?list=PLsCPTY_MPoPZLKsjasPhYLuoWG-s-rdKq"><img src="images/youtubeplaylist.jpeg" alt="playlist"></a>	
+		</section>
+		<section>
+			<img class="listen" src="images/billie.jpeg" alt="album cover">
+			<h1>Happier Then Ever</h1>
+			<h2>Listen</h2>
+		</section>
+		<section>
+			<h3>Tour</h4>
+			<img class="tourimg" src="images/tour-name.png" alt="tourname">
+			<ol>
+				<li><a href="#"></a>Ziggo Dome</li>
+				<li><a href="#"></a>Festhalle</li>
+				<li><a href="#"></a>Lanxess Arena</li>
+				<li><a href="#"></a>Acoor Arena</li>
+			</ol>
+		</section>
+		<section>
 		<h4>Store</h4>
-		<img src="images/store1.png" alt="product1">
-		<img src="images/store2.png" alt="product1">
-		<img src="images/store3.png" alt="product1">
-		<img src="images/store4.png" alt="product1">
-
+			<img src="images/store1.png" alt="product1">
+			<img src="images/store2.png" alt="product1">
+			<img src="images/store3.png" alt="product1">
+			<img src="images/store4.png" alt="product1">
+		</section>
 	</main>
+
 	<footer>
-		<h3>Subscribe</h3>
-		<form action="">
-			<label for="">Email address required*</label>
-			<input type="text">
-			<input type="button" value="Submit">
-			<label for="country ">Country*</label>
+		<section>
+				<h2>Subscribe</h2>
+			<form action="#">
+				<label for="#">Email address required*</label>
+				<input type="text">
+				<input type="button" value="Submit">
+				<label for="country">Country*</label>
 
-		<select name="country" >
-			<option value="nl">Nederland</option>
-			<option value="be">België</option>
-			<option value="ge">Duitsland</option>
-			<option value="no">Noorwegen</option>
-			<option value="gb">Engeland</option>
-			<option value="sw">Zweden</option>
-		</select>
-		<input type="checkbox" name="subscribe" checked>
-  		<label for="billie">BILLIE EILISH</label>
-		</form>
+			<select name="country" >
+				<option value="nl">Nederland</option>
+				<option value="be">België</option>
+				<option value="ge">Duitsland</option>
+				<option value="no">Noorwegen</option>
+				<option value="gb">Engeland</option>
+				<option value="sw">Zweden</option>
+			</select>
+			<input type="checkbox" name="subscribe" checked>
+			<label for="billie">BILLIE EILISH</label>
+			</form>	
+		</section>
 	</footer>
-
-
-
-
 	<script src="scripts/script.js"></script>
 </body>
 	

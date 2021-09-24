@@ -5,63 +5,157 @@
 
 *{
   margin: 0;
-  padding: 0.5em;
+}
+
+:root{
+--fontCoronet: "Coronet"; /* https://stackoverflow.com/questions/53846582/can-i-use-css-variables-in-a-font-list-and-have-it-work-in-legacy-browsers */
+--main-color:#333;
+--background-color: #8A684A;
+--menu-background-color:LightSkyBlue;
+--button-background-color:#8A684A;
 }
 
 
 body{
-  background-color: #8A684A;
-  font-family: serif;
+  background-color: var(--background-color);
+}
+
+header {
+  padding:.8em 1.75em;
+  display:grid;
+  grid-template-columns:min-content 1fr min-content;   
+  align-items:center;
+/*zorgt ervoor dat hij bovenaan blijft "plakken" top 0 voor de bovenkant */
+  position:sticky;
+  top:0;
+}
+
+/*  links in de header */
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* logo */
+header > a:first-of-type {
+  line-height:1;
+
+  /* logo centreren */
+  justify-self:center;
+}
+
+/* logo grootte */
+header > a:first-of-type img {
+  height:2.5em;
+}
+
+header > a img{
+  width:20em;
+  height:2em;
+ justify-content: center;
 }
 
 nav {
-position: sticky;
-display: flex;
-justify-content: center;
+  order:-1;  
 }
 
-/* Stijlen van de nav links*/
+/* menu button */
+nav button {
+  width:15em;
+  height:5em;
+  background-color: #e1d3bb00;
+  border:none;
+  border-radius:.25em;
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:100;
+}
+
+/* menupaginas*/
+nav ul { 
+  margin:0; 
+  padding:6em 4em 0;
+  font-size: 1.5em;
+  background:#8A684A;
+  list-style:none;
+  position:fixed;
+  left:0; right:0; top:0; bottom:0;
+  transform:translatex(100%);
+  z-index:50;
+}
+
+nav.verschijnMenu ul {
+  transform:translatex(0);
+}
+
+
+/* een paginalink in de lijst */
+nav li {
+  margin:0; padding:0;
+}
+   
 nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 1px 16px;
-  text-decoration: none;
-  font-size: 1em;
+  display:flex;
+  align-items:center;
+  gap:.5em;
+  padding:.25em 1em;
 }
 
-/* Stijlen van de nav links hover en transition voor kleur*/
-nav a:hover {
-  transition: 1s;
-  color: rgb(242, 226, 139);
+nav a.active {
+  color:white;
 }
 
-h1{
-  font-family: "coronet";
+
+@media (min-width:70em) {
+  nav {
+/* centreer de nav in de middelste
+kolom en order bepalen met 0 staat de img vooraan(links) */
+    justify-self:center;
+    order:0;
+  }
+  nav button {
+    display:none;
+  }
+/*  position static en transform none zorgen ervoor dat de nav in het midden staat  */
+  nav ul {
+    position:static;
+    transform:none; 
+    display:flex;
+    padding:0;
+    background:none;
+  }
+}
+
+h1{      
   color: beige;
-  position: relative;
+  
 }
 
-h4{
+h2{
+  font-family: var(--fontCoronet);
+}
+
+h3{
   background-color: #e1d3bb;
   font-size: 2em;
   color: #8A684A;
   letter-spacing: .5em;
-  padding: .5em;
+  padding: .5em; 
+  font-family: var(--fontCoronet);    
+
 }
 
 img{
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 li{
   list-style: none;
   display: flex;
   justify-content: center;
-  position: relative;
+
 }
 
-li ol{
-  position: absolute;
-}
