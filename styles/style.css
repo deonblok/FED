@@ -208,6 +208,7 @@ li{
   display: flex;
   justify-content: center;
 }
+/* https://css-tricks.com/examples/nth-child-tester/ */
 /* styling li datum */
 ol li:nth-of-type(4n+1){
   color:var(--main-color);
