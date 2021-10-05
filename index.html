@@ -10,6 +10,7 @@
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/faviconBE.png">
+	<!-- links fonts -->
 	<link href="https://fonts.cdnfonts.com/css/coronet" rel="stylesheet">
 	<link href="https://fonts.cdnfonts.com/css/abhaya-libre-2" rel="stylesheet">
                 
@@ -18,45 +19,41 @@
 
 <body>
 	<header>
-	  <nav>
-		<button aria-hidden="true">Billie Eilish</button>
-		<ul>
-		  <li><a href="#">videos</a></li>
-		  <li><a href="#">music</a></li>
-		  <li><a href="#">tour</a></li>
-		  <li><a href="#">store</a></li>
-		  <li><a href="#">documentary</a></li>
-		  <li><a href="#">book</a></li>
-		  <li><a href="#">subscribe</a></li>
-		  <a href="#"><img class="socialbuttonimage" src="images/facebook.png" alt="social button facebook"/></a>
-		  <a href="#"><img class="socialbuttonimage" src="images/twitter.png" alt="social button twitter"/></a>
-		  <a href="#"><img class="socialbuttonimage" src="images/instagram.png" alt="social button instagram"/></a>
-		  <a href="#"><img class="socialbuttonimage" src="images/spotify.png" alt="social button spotify"/></a>
-		  <a href="#"><img class="socialbuttonimage" src="images/applemusic.png" alt="social button applemusic"/></a>
-		  <a href="#"><img class="socialbuttonimage" src="images/youtube.png" alt="social button youtube"/></a>
-		  <a href="#"><img class="socialbuttonimage" src="images/tiktok.png" alt="social button tiktok"/></a>
-		</ul>
-	  </nav>
-	</header>
-
+		<!-- nav -->
+	<a href="#">
+		<p aria-hidden="true">Billie Eilish</p>
+	 </a>
+	 <nav>
+	   <button><img src="images/knophamburgermenu.png" alt="knophamburgermenu"></button>
+	   <ul>
+		 <li><a href="#">videos</a></li>
+		 <li><a href="#">music</a></li>
+		 <li><a href="#">tour</a></li>
+		 <li><a href="#">store</a></li>
+		 <li><a href="#">documentary</a></li>
+		 <li><a href="book.html">book</a></li>
+		 <li><a href="#">subscribe</a></li>
+	   </ul>
+	 </nav>
+	 
+   </header>
+<!-- main -->
 	<main>
 		<section>
-			<img class="bannermobile"src="images/headermobile.jpeg" alt="mobile album cover">
-			<img class="bannerdesktop"src="images/headerimg.jpeg" alt="desktop album cover">
+			<img class="bannermobile" src="images/headermobile.jpeg" alt="mobile album cover">
+			<img class="bannerdesktop" src="images/headerimg.jpeg" alt="desktop album cover">
 		</section>
 		<section>
 			
-			
-			<span class="iframepositie"><iframe src="https://www.youtube.com/embed/34PJMUVHZGw"></iframe>
-				<h2>Happier Than Ever Official Album Playlist</h2>
+			<!-- iframes  -->
+			<span class="iframepositie"><iframe src="https://www.youtube.com/embed/5GJWxDKyk3A"></iframe>
+				<h1>Happier Than Ever Official Album Playlist</h1>
 			<iframe src="https://www.youtube.com/embed/videoseries?list=PLsCPTY_MPoPZLKsjasPhYLuoWG-s-rdKq" ></iframe></span>
 
-			<!-- <a href="https://youtu.be/5GJWxDKyk3A"><img src="images/youtubeHTE.jpeg" alt="Happier"></a>
-			<a href="https://youtu.be/7AS9r_E0PY4?list=PLsCPTY_MPoPZLKsjasPhYLuoWG-s-rdKq"><img src="images/youtubeplaylist.jpeg" alt="playlist"></a>	 -->
 		</section>
 		<section>
-			<img class="listen" src="images/billie.jpeg" alt="album cover">
-			<h1>Happier Then Ever</h1>
+			<img src="images/billie.jpeg" alt="album cover">
+			<h2>Happier Than Ever</h2>
 			<a href="#"><h2>Listen</h2></a>
 		</section>
 		<section>
@@ -81,41 +78,51 @@
 				<li>Sold Out</li>
 			</ol>
 		</section>
-		<section>
+		<section>  
 		<h3>Store</h3>
-			<img src="images/store1.png" alt="super deluxe boxset">
-			<h4>'Happier Than Ever' Super Deluxe Box Set</h4>
-			<img src="images/store2.png" alt="deluxe boxset">
-			<h4>'Happier Than Ever' Deluxe Box Set</h4>
-			<img src="images/store3.png" alt="Happier Then Ever cd">
-			<h4>'Happier Than Ever' CD Photobook</h4>
-			<img src="images/store4.png" alt="Happier Then Ever vinyl">
-			<h4>'Happier Than Ever' Vinyl</h4>
+		<ul class="imagescontainer">
+			<li><img src="images/store1.png" alt="super deluxe boxset"></li>
+				<figcaption>'Happier Than Ever' Super Deluxe Box Set</figcaption>
+			<li><img src="images/store2.png" alt="deluxe boxset"></li>
+				<figcaption>'Happier Than Ever' Deluxe Box Set</figcaption>
+			<li><img src="images/store3.png" alt="Happier Then Ever cd"></li>
+				<figcaption>'Happier Than Ever' CD Photobook</figcaption>
+			<li><img src="images/store4.png" alt="Happier Then Ever vinyl"></li>
+				<figcaption>'Happier Than Ever' Vinyl</figcaption>
+				<a href="#"> Shop All</a>
+		</ul>
 		</section>
-		<section>
-				<h2>Subscribe</h2>
+		<section class="formstyling">
+				<h4>Subscribe</h4>
 			<form action="#">
-				<label for="#">Email address required*</label>
-				<input type="text">
-				<input type="button" value="Submit">
-				<label for="country">Country*</label>
-
-			<select name="country" >
-				<option value="nl">Nederland</option>
-				<option value="be">België</option>
-				<option value="ge">Duitsland</option>
-				<option value="no">Noorwegen</option>
-				<option value="gb">Engeland</option>
-				<option value="sw">Zweden</option>
-			</select>
-			<input type="checkbox" name="subscribe" checked>
-			<label for="billie">BILLIE EILISH</label>
+					<label for="#">Email address*</label>
+					<input type="text" placeholder="Email Address (Required)" required>
+			
+					<label for="country">Country*</label>
+				<select name="country" >
+						<option value="nl">Nederland</option>
+						<option value="be">België</option>
+						<option value="ge">Duitsland</option>
+						<option value="no">Noorwegen</option>
+						<option value="gb">Engeland</option>
+						<option value="sw">Zweden</option>
+				</select>
+					<p>Subscribe to email updates from:</p>
+				<label>
+					<input type="checkbox" checked>
+					<span> BILLIE EILISH </span>
+			 	</label>
+			 		<input class="submitbutton" type="button" value="Submit">
 			</form>	
 		</section>
 	</main>
-
+<!-- FOOTER -->
 	<footer>
-		
+		<h5>© Darkroom/Interscope Records</h5>
+		<h5>Privacy Policy</h5>
+		<h5>Terms & Conditions</h5>
+		<h5>Cookie Consent</h5>
+		<h5>Do not sell my personal information</h5>
 	</footer>
 	<script src="scripts/script.js"></script>
 </body>
