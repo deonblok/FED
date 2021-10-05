@@ -154,7 +154,7 @@ Tijdens de VoiceOver op mijn site ontdekte ik dat de image in mijn nav overgesla
 
 ### Stand van zaken
 Ik had deze week lekker doorgewerkt aan de site. Ik ben ook al begonnen aan de tweede pagina. Ik vind de site netjes maken nog er lastig, ook werkt mijn nav menu niet helemaal correct, hier moet ik aankomende dagen nog hard aan werken.(neem ook screenshots op van delen van je website en code)
-<img src="images/screenshothomepage2.png" width="375px" alt="homepage voortgang 3">
+<img src="images/screenshot.homepage2.png" width="375px" alt="homepage voortgang 3">
 <img src="images/screenshothomepage2.1.png" width="375px" alt="homepage 2 voortgang 3">
 
 ### Agenda voor meeting
@@ -189,11 +189,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 De laatste dagen vond ik erg lastig, ik wilde nog van alles aanpassen en veel dinbgen zaten tegen. Ook had ik nog een andere deadline waardoor ik enorm veel stress kreeg. Uiteindelijk na heel veel moeite en tijd is het mij toch gelukt. Zie hieronder het resultaat.
 
 ### Screenshot(s)
-<img src="images/eindresultaattop.jpg" width="375px" alt="eindresultaatbovenaan">
-<img src="images/eindresultaat1.png" width="375px" alt="eindresultaat1">
+<img src="images/eindresultaattop.png" width="375px" alt="eindresultaatbovenaan">
 <img src="images/eindresultaat1.1.png" width="375px" alt="eindresultaat1.1">
 <img src="images/eindresultaatfooter1.png" width="375px" alt="eindresultaatfooter">
-<img src="images/eindresultaatpage2.jpg" width="375px" alt="eindresultaatpage 2">
+<img src="images/eindresultaatpage2.png" width="375px" alt="eindresultaatpage 2">
 </details>
 
 
