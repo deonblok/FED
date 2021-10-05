@@ -189,9 +189,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 De laatste dagen vond ik erg lastig, ik wilde nog van alles aanpassen en veel dinbgen zaten tegen. Ook had ik nog een andere deadline waardoor ik enorm veel stress kreeg. Uiteindelijk na heel veel moeite en tijd is het mij toch gelukt. Zie hieronder het resultaat.
 
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
-
+<img src="images/eindresultaattop.jpg" width="375px" alt="eindresultaatbovenaan">
+<img src="images/eindresultaat1.png" width="375px" alt="eindresultaat1">
+<img src="images/eindresultaat1.1.png" width="375px" alt="eindresultaat1.1">
+<img src="images/eindresultaatfooter1.png" width="375px" alt="eindresultaatfooter">
+<img src="images/eindresultaatpage2.jpg" width="375px" alt="eindresultaatpage 2">
 </details>
 
 
