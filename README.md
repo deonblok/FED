@@ -192,7 +192,7 @@ De laatste dagen vond ik erg lastig, ik wilde nog van alles aanpassen en veel di
 <img src="images/eindresultaattop.png" width="375px" alt="eindresultaatbovenaan">
 <img src="images/eindresultaat1.1.png" width="375px" alt="eindresultaat1.1">
 <img src="images/eindresultaatfooter1.png" width="375px" alt="eindresultaatfooter">
-<img src="images/eindresultaatpage2.png" width="375px" alt="eindresultaatpage 2">
+<img src="images/eindresultatpage2.png" width="375px" alt="eindresultaatpage 2">
 </details>
 
 
