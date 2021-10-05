@@ -23,7 +23,6 @@ section{
   padding-bottom: 4em;
 }
 
-
 header {
   padding:.5em .75em; 
   display:flex;
@@ -45,14 +44,11 @@ header > a:first-of-type {
   font-family: var(--fontCoronet);
 }
 
-
-
 /* HET MENU */
 /* zorgt ervoor dat hamburger vooraan komt te staan in de nav */
 nav {
   order:-1;  
 }
-
 
 /* hamburger menu */
 nav button {
@@ -148,23 +144,28 @@ nav a:focus {
   }
   
 }
+
 /* haalt de lijn onder links weg */
 a{
   text-decoration: none;
 }
+
 /* opmaak button + border */
 button{
   background-color: var(--background-color);
   border: ridge .2em var(--main-color);
 }
+
 /* centreren van de youtube videos */
 .iframepositie{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 10em;
+  padding-right: 10em;
+
 }
+
 /* padding voor de albumcover listen */
 section:nth-of-type(3) img{
   padding-left: 1em;
@@ -230,7 +231,6 @@ img{
   max-width: 100%;
   max-height: 100%;
 }
-
 
 li{
   list-style: none;
@@ -301,6 +301,7 @@ figcaption{
   color: var(--secondary-color);
   padding-bottom: 1em;
 }
+
 /* Shop all button styling  */
 .imagescontainer a{
   background-color: #f1c13200;
@@ -374,8 +375,6 @@ select{
   color: var(--secondary-color);
 }
 
-
-
 @media (min-width: 60em){
   .formstyling{
   margin-left: 5em;
@@ -420,7 +419,6 @@ section:nth-of-type(2) a{
     text-align: center;
     margin: .6em auto ;
 }
-
 
 section:nth-of-type(3) p{
  padding-right:3em  ;
